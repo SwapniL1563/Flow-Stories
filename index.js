@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded" , function() {
                 scrollTrigger : {
                     trigger : section,
                     start:"top top",
-                    end: "bottom top",
+                    end: endScalePoint,
                     scrub:1,
                 }
             })
