@@ -129,6 +129,8 @@ section {
 	}
 }
 
+
+
 @keyframes wheel {
 	to {
 		opacity: 0;
@@ -143,4 +145,42 @@ section {
 	}
 }
 
+@media screen and (max-width:768px) {
+    .logo a {
+       font-size:5.1vw ;
+    }
 
+    .hero h1{
+        font-size:15vw;
+        line-height: 110%;
+    }
+
+    .img{
+        height: 50vh;
+        width: 90vw;
+        padding-right: 0vw;
+    }
+
+    .footer{
+        height: 2vh;
+        padding-bottom: 20vh;
+    }
+
+    .footer h1{
+      font-size: 3rem;
+    }
+
+    .hero-btn{
+        bottom: 3%;
+    }
+
+    .cloud{
+        display: none;
+    }
+
+
+    /* .scroll{
+        height: 50vh;
+        width: 90vw; 
+    } */
+}
